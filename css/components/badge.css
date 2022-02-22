@@ -9,3 +9,16 @@
   color: white;
   font-weight: 600;
 }
+
+.badge-sthspecial {
+  background-color: tomato;
+  width: 8px;
+  height: 8px;
+  display: flex;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  position: absolute;
+}

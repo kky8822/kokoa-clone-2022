@@ -53,3 +53,17 @@
   display: block;
   margin-bottom: 10px;
 }
+
+.user-component__caution {
+  display: inline-flex;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  color: red;
+  border: 1px solid red;
+  justify-content: center;
+  align-items: center;
+}
+.user-component__caution span {
+  font-size: 14px;
+}

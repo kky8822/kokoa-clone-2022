@@ -1,0 +1,88 @@
+#chat-screen {
+  background-color: #abc1d1;
+}
+
+#chat-screen .alt-header,
+#chat-screen .status-bar {
+  background-color: #abc1d1;
+}
+
+#chat-screen .status-bar {
+  z-index: 2;
+}
+#chat-screen .alt-header {
+  z-index: 1;
+}
+#chat-screen .chat {
+  z-index: 0;
+}
+
+.chat {
+  margin-top: 140px;
+  padding: 0px var(--horizontal-space);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chat__timestamp {
+  color: white;
+  background-color: #92a4b2;
+  padding: 8px 15px;
+  border-radius: 16px;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.massage-row {
+  width: 100%;
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.massage-row img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
+.massage-row__author {
+  opacity: 0.8;
+  font-size: 13px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.massage-row__info {
+  display: flex;
+  align-items: flex-end;
+}
+.massage-row__bubble {
+  background-color: white;
+  padding: 13px;
+  border-radius: 15px;
+  border-top-left-radius: 0px;
+  margin-right: 5px;
+  font-size: 18px;
+}
+.massage-row__time {
+  opacity: 0.8;
+  font-size: 13px;
+}
+
+.massage-row--own {
+  justify-content: flex-end;
+}
+
+.massage-row--own .massage-row__info {
+  flex-direction: row-reverse;
+}
+.massage-row--own .massage-row__bubble {
+  background-color: var(--yellow);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 0px;
+  margin-right: 0;
+  margin-left: 5px;
+}

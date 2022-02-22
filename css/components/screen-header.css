@@ -7,6 +7,8 @@
   width: 100%;
   box-sizing: border-box;
   top: 26px;
+  background-color: white;
+  z-index: 1;
 }
 
 .screen-header__title {
@@ -16,4 +18,13 @@
 
 .screen-header__icons span {
   margin-left: 25px;
+}
+
+.screen-header__cog {
+  position: relative;
+}
+
+.screen-header__sthspecial {
+  left: 0px;
+  bottom: 20px;
 }
